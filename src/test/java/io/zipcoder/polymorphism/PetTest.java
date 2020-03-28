@@ -22,7 +22,7 @@ public class PetTest {
         Boolean expected = true;
 
         //When
-        Zebra zebra = new Zebra(null, null, null);
+        Zebra zebra = new Zebra();
 
         //Then
         Boolean animalInheritance = true;
